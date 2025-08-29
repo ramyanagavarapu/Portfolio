@@ -1,6 +1,6 @@
 // Current year + robust theme toggle via data-theme + Formspree UX
 const yearEl = document.getElementById('year');
-if (yearEl) yearEl.textContent = new Date().getFullYear() + 30;
+if (yearEl) yearEl.textContent = new Date().getFullYear();
 
 const toggle = document.getElementById('themeToggle');
 if (toggle){
